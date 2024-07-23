@@ -15,7 +15,6 @@ public class Main {
             Socket socket1 = new Socket("localhost", 8080);
             Socket socket2 = new Socket("localhost", 8080);
             Socket socket3 = new Socket("localhost", 8080);
-            System.out.println(socket1.getRemoteSocketAddress());
             connectionManager.addConnection("user1", socket1);
             connectionManager.addConnection("user2", socket2);
             connectionManager.addConnection("user3", socket3);
